@@ -6,30 +6,30 @@ composer install
 
 ! Nếu lỗi hãy pate lệnh này để bỏ qua phiên bản
 
-``bash
+```bash
 composer install --ignore-platform-reqs
-``
+```
 
 - Tạo bảng trong mySQL: dky_khoahoc
 - Sau đó sửa file .env.example 
 
-``bash
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=dky_khoahoc
 DB_USERNAME=root
 DB_PASSWORD=
-``
+```
 - Sau khi tạo bảng xong sử dụng lệnh 
 
-``bash
+```bash
 php artisan migrate
-``
+```
 
 - Sau khi hoàn tất tất cả các bước trên 
 
-``bash
+```bash
 php artisan serve
-``
+```
 
