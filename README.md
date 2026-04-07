@@ -1,8 +1,8 @@
 Hoàng Minh Quang - 20221289
 
-``bash
+```bash
 composer install
-``
+```
 
 ! Nếu lỗi hãy pate lệnh này để bỏ qua phiên bản
 
