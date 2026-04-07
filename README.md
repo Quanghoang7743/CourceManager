@@ -27,6 +27,10 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
+```bash
+php artisan storage:link
+```
+
 - Sau khi hoàn tất tất cả các bước trên 
 
 ```bash
